@@ -1,0 +1,109 @@
+@media (max-width: 745px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 746px) {
+  .container {
+    width: 30%;
+    height: 50%;
+  }
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  background-color: hsl(217, 54%, 11%);
+}
+
+h4 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+h4:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+hr {
+  width: 90%;
+  border-style: solid none none none;
+  border-color: hsl(0, 0%, 100%);
+}
+
+.bottom-block {
+  margin-top: 20px;
+  font-size: 0.98rem;
+  padding-bottom: 10px;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+
+.eqbm-img {
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.eqbm-img:hover {
+  opacity: 70%;
+}
+
+.middle-block {
+  margin-bottom: 30px;
+}
+
+.person-img {
+  border-radius: 100%;
+  border: 1px solid white;
+  width: 10%;
+  float: left;
+  margin-right: 20px;
+}
+
+.person-name {
+  color: hsl(0, 0%, 100%);
+}
+
+.person-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+
+.time-left {
+  color: hsl(215, 51%, 70%);
+  float: right;
+}
+
+.top-block {
+  position: relative;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 10px;
+}
+
+.top-block:hover .view-img {
+  display: block;
+}
+
+.view-img {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  display: none;
+}
